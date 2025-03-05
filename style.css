@@ -39,10 +39,12 @@ header {
 header a {
   font-size: 1.5rem;
   color: var(--off-white);
-  animation-name: changeColor;
-  animation-duration: 6s
 }
-@keyframes changeColor {
+header a:hover {
+  animation-name: change-color;
+  animation-duration: 2s
+}
+@keyframes change-color {
   0% {background-color: #06b3bc;}
   50% {background-color: #F78828;}
   100% {background-color: #06b3bc;}
